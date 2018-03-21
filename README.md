@@ -1,5 +1,6 @@
 # InofrmatykaJeden
 prace domowe i zadania na zajęciach
+--------------------------------------
 homework and exercises from InfoTech 1
 
 udostępniam własne rozwiązania zadań z Informatyki 1
