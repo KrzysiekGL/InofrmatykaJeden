@@ -54,7 +54,7 @@ void sortuj(double tablica[], int N)
 {
     int indeksMax, first = 0, last = N-1;
     do{
-        indeksMax = maksimum(tablica, N, first, last);
+        indeksMax = maksimum(tablica, first, last);
         zamien(tablica, indeksMax, last);
         last--;
     }while(last > first);
