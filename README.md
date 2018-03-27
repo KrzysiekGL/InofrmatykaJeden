@@ -10,3 +10,5 @@ zachęcam do komentowania i wskazywania błędów/lepszych rozwiązań
 
 sharing my own solutions for exercises from Informatyka 1
 I encourage you to comment and pointing out errors/better solutions 
+
+Krzysztof Szczerbowski
