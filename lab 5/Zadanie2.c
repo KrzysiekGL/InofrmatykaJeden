@@ -48,7 +48,7 @@ void zamien(int *a , int *b)
     *b = temp;
 } 
 
-void zadanie(int W, int K, int tablica[W][K])
+void zadanie(int W, int K, int tablica[W][K]) //dzialanie wytlumaczono w pliku: wyjasnieni funkcji zadanie().txt
 {
     for (int x = 0 ; x <= K-2 ; x++)
         for (int y = x+1 ; y <= K-1 ; y++)
