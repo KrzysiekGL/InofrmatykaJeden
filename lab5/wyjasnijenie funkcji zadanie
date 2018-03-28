@@ -1,0 +1,13 @@
+void zadanie(int W, int K, int tablica[W][K])
+{
+    for (int x = 0 ; x <= K-2 ; x++)
+        for (int y = x+1 ; y <= K-1 ; y++)
+            zamien(&tablica[x][y], &tablica[y][x]);
+}
+
+
+Funkcja korzystajac z funkcji zamien() zamienia miejscami wartosci kolumn z
+wartosciami wierszy. To znaczy jzeli mamy tablice dwu-wymiarowa
+a0  b0  c0                          a0  a1  a2
+a1  b1  c1 to zamienia ja na taka:  b0  b1  b2
+a2  b2  c2                          c0  c1  c2
