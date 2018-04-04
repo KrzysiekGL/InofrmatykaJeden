@@ -1,0 +1,12 @@
+kod:
+int tab[6]={3,17,-10,0,2};          // utworzenie tablicy tab[] i przypisanie do niej 5 wart poczatkowych
+int *pt = &tab[2] , w , *pt2 = tab; // utworzenie wskaznikow i zmiennej typu int, pt - 3 element tablicy tab, pt2 - zerowej miejsce tablicy tab
+*pt++ = 17;                         // przypisanie miejscu tab[2] wartowsci 17, nastepnie przesuniecie pt na miejsce tab[3]
+w = *pt - 3;                        // przypisanie "w" wartosci (tab[3] - 3) => w = 0 - 3 = -3 
+*pt2 = *pt;                         // przypisanie: wartosc tab[0] = wartosc tab[3] => tab[0] = 0
+*pt = *pt2;                         // przypisanie: wartowsc tab[3] = wartosc tab[0] => tab[3] = 0
+printf("%d\n", *pt2 - 1);           // wydrukowanie wartosci tab[0] pomniejszonej o 1 => 0 - 1 = -1
+printf("%d\n", pt2[2]++);           // wydrukowanie wartosci tab[2], nastepnie inkrementcaja wartosci tab[2] o 1
+                                    //          => wydrukowane: 17, wartosc tab[2] = 18
+                                    // tab na koniec wyglada tak (pomijam wartoscie niezdefiniowane podczas inicjalizacji)
+                                    //  => {0,17,18,0,2}
