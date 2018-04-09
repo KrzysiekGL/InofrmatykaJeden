@@ -4,14 +4,6 @@ alfabetu oraz cyfry występujące w danych doprowadzonych na wejście. Po zakoń
 liczbę liter, liczbę cyfr oraz liczbę wprowadzonych linii tekstu(każda linia zakończona jest '\n').
 */
 
-/*
-Instrukcja:
-program należy w ten sposób uruchomić po skompilowaniu:
-w cmd (w katalogu programu): program.exe < dane.txt
-gdzie plik "dane.txt" jest dowolnym plikiem tekstowym
-(niestety eNauczanie nie pozwoliło mi dołączyć własnych plików tekstowych, ograniczenie do uploadu jednego pliku w ramach pracy domowej)
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 
