@@ -1,0 +1,2 @@
+program należy w ten sposób uruchomić po skompilowaniu:
+w cmd (w katalogu programu): program.exe < dane.txt
